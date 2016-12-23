@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "noEmitHelpers": false,
+        "noImplicitAny": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "outDir": "build/tmp",
+        "removeComments": false,
+        "sourceMap": true,
+        "strictNullChecks": false,
+        "target": "ES5"
+    },
+    "exclude": [
+        "build",
+        "node_modules",
+        "test",
+        "typings/globals"
+    ]
+}
