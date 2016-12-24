@@ -9,7 +9,7 @@ const webpack = require("webpack");
 
 const baseWebpackConfig = require("./webpack.config");
 
-const baseUrl = "";
+const baseUrl = "/";
 const webpackDevServerPort = "8543";
 
 module.exports = Object.assign({}, baseWebpackConfig, {
